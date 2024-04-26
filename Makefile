@@ -1,8 +1,8 @@
-all: create_jar
+all: create_jar create_containers
 create_jar:
 	mvn clean install
 
-create_contianers:
+create_containers:
 	docker-compose up
 
 
